@@ -1,0 +1,42 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.teams{
+  display: inline-block;
+  width:80%;
+  border: solid 1px gray;
+}
+
+.team-header{
+  display:inline-block;
+  width: 20%;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+}
+
+.team-row:nth-child(even){
+  background: #999999;
+}
+
+.team-row:nth-child(odd){
+  background: #dddddd;
+}
+
+.team-row-child{
+  display: inline-block;
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+hr{
+  margin-top:0;
+  margin-bottom:0;
+}
